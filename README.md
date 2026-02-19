@@ -19,7 +19,7 @@ Responsive corporate landing page.
 - Vanilla JavaScript for simple interactions
 
 ## Live Demo
-[https://hideva-group-frontend.netlify.app/]
+https://hideva-group-frontend.netlify.app/
 
 ## Status
 Built for learning. Open to feedback.
