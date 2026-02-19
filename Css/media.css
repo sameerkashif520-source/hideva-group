@@ -1,0 +1,154 @@
+/* Header  */
+
+@media (max-width: 575.98px) {
+  .navbar .brand-text {
+    font-size: 0.88rem;
+    max-width: none;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #navbarNav {
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+  .navbar-collapse .navbar-nav {
+    align-items: flex-start;
+    margin-left: 0 !important;
+  }
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+  .navbar-nav .nav-link,
+  .navbar-nav .contact-btn {
+    padding-left: 0;
+  }
+  .navbar-nav .contact-btn {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 5px -5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    max-width: none;
+  }
+  .navbar .brand-text {
+    text-overflow: clip;
+    white-space: normal;
+  }
+}
+
+/* Design and Build Section  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .design-build-con {
+    margin-right: 2rem;
+  }
+  .construction-img img {
+    max-width: 90%;
+  }
+  .design-build-con h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .design-build-con {
+    max-width: 100%;
+    text-align: left;
+    margin: 0 0 2rem 0;
+  }
+  .design-items-flex {
+    justify-content: flex-start;
+  }
+  .design-build-btn {
+    width: auto;
+  }
+}
+
+/* Services Section  */
+
+@media (max-width: 768px) {
+  .card img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 576px) {
+  #cardCarousel .carousel-control-prev {
+    left: -10px;
+  }
+  #cardCarousel .carousel-control-next {
+    right: -10px;
+  }
+}
+
+/* Form Section  */
+
+@media (max-width: 992px) {
+  .form-head {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 25px 30px;
+  }
+  .form-head {
+    font-size: 2rem;
+  }
+  .form-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form-container {
+    padding: 20px 15px;
+  }
+  .btn-premium {
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: auto;
+  }
+  .form-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Footer Section  */
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 40px 15px;
+  }
+
+  .footer-heading,
+  .footer-link {
+    text-align: left !important;
+  }
+
+  .footer-link {
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+  }
+
+  .footer .social-icons {
+    justify-content: flex-start !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .footer .social-icons a {
+    display: inline-block;
+  }
+}
